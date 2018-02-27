@@ -2,7 +2,7 @@
 * {
 	box-sizing: border-box;
 	padding: 0;
-	margin: 
+	margin:  0;
 }
 
 /*header*/
@@ -12,11 +12,16 @@ header strong {
 }
 
 .menu li a {
-	color: black !important;
+	color: #F05F40 !important;
+	text-transform: uppercase;
 }
 
 .menu li a:hover {
-	color: #F05F40 !important;
+	color: #782F20 !important;
+}
+.title_page {
+	text-transform: uppercase;
+	margin-top: 17px;
 }
 
 /*section*/
@@ -64,8 +69,17 @@ header strong {
 	margin-top: 5%;
 }
 
-.fondo-img a:hover {
-	background-color: #782F20;
+.fondo-img a:hover{
+	background-color: #782F20 !important;
+}
+.fondo-img a:active{
+	background-color: #782F20 !important;
+}
+.fondo-img a:focus{
+	background-color: #782F20 !important;
+}
+.fondo-img a:visted {
+	background-color: #782F20 !important;
 }
 
 .marg-jumb {
@@ -87,6 +101,7 @@ header strong {
 
 .h2 {
 	color: #ffffff;
+	text-transform: uppercase;
 }
 
 .sobre-mi .container {
@@ -118,11 +133,17 @@ h5+span {
 }
 
 /*proyectos*/
+.title_services{
+	text-transform: uppercase;
+}
 
 .jpg {
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 200px;
+}
+.name_catg{
+	text-transform: uppercase;
 }
 
 .proyectos .col-lg-4 {
@@ -190,7 +211,33 @@ h5+span {
 .ver-git a:hover {
 	background-color: #222222;
 }
+.text-contact{
+	margin-bottom: 0px
+}
 
+.contact{
+	text-transform: uppercase;
+	color: #F05F40;
+	margin-bottom: 100px
+}
+.number-phone{
+	color: #F05F40;
+}
+.mail_address{
+	color: #F05F40;
+}
+.mail_address:hover{
+	color: #F05F40;
+}
+.mail_address:active{
+	color: #F05F40;
+}
+.mail_address:focus{
+	color: #F05F40;
+}
+.mail_address:visted{
+	color: #F05F40;
+}
 /*article*/
 
 .contactame p,h2 {
@@ -207,7 +254,6 @@ h5+span {
 }
 
 .contactame h5 a:hover {
-	color: red;
 	text-decoration: none;
 }
 
