@@ -3,7 +3,7 @@
 Con ***Responsive Page*** puedes tener una página web totalmente adaptable a todos tus dispositivos.
 
 En ésta oprtunidad Responsive Page refleja a un portafolio; teniendo un portafolio al cual puedes acceder desde
-cualquier dispositivo puedes tener la seguridad que a tus clientes y usuarios siempre tendrán la información
+cualquier dispositivo puedes tener la seguridad que tus clientes y usuarios siempre tendrán la información
 correcta de una manera fácil y rápida.
 
 Desktop:
