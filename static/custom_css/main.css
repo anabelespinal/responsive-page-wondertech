@@ -114,7 +114,7 @@ header strong {
 	padding: 8% 0;
 }
 
-.col-lg-3 i {
+.col-md-3 i {
 	font-size: 450%;
 	color: #F05F40;
 }
@@ -124,7 +124,7 @@ i+h5 {
 	font-size: 120%;
 }
 
-.col-lg-3 div {
+.col-md-3 div {
 	margin-top: 20%;
 }
 
@@ -146,7 +146,7 @@ h5+span {
 	text-transform: uppercase;
 }
 
-.proyectos .col-lg-4 {
+.proyectos .col-md-4 {
 	padding: 0;
 }
 
@@ -235,7 +235,7 @@ h5+span {
 .mail_address:focus{
 	color: #F05F40;
 }
-.mail_address:visted{
+.mail_address:visited{
 	color: #F05F40;
 }
 /*article*/
@@ -258,8 +258,110 @@ h5+span {
 }
 
 
+@media screen and (max-width: 991px) {
+	.display-none{
+		padding-top: 4%;
+	}
+	.contact{
+		margin-bottom: 50px;
+	}
+	.contact + .col-md-6{
+		margin-bottom: 50px
+	}
+}
+@media screen and (max-width: 767px) {
+	.fondo-img{
+		padding: 10% 5%;
+	}
+	.title_page{
+		padding-left: 2%;
+	}
+	.display-none{
+		padding-top: 10%
+	}
+	.display-none .name_catg{
+		margin: 1% 2%;
+	}
+	.contactame{
+		padding-top: 40px
+	}
 
+}
+@media screen and (max-width: 600px) {
+	.fondo-img h1{
+		font-size: 30px;
+	}
+	.jumbotron p{
+		font-size: 16px;
+	}
+	.fondo-img a{
+		font-size: 15px	
+	}
+	.titles_mobile{
+		font-size: 25px !important;
+	}
+	.title_services{
+		font-size: 15px
+	}
+	.title_services + span{
+		font-size: 15px
+	}
+	.display-none{
+		padding-top: 13%;
+	}
+	.display-none .name_catg{
+		font-size: 23px;
+	}
+	.display-none p.name_catg{
+		font-size: 13px
+	}
+	.ver-git h2{
+		width: 90%;
+		font-size: 20px;
+		margin: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.ver-git a{
+		font-size: 15px;
+	}
+	.contact{
+		font-size: 15px;
+	}
+	.number-phone, .mail_address{
+		font-size: 15px;
+	}
+}
 
+@media screen and (max-width: 500px) {
+	body{
+		padding-bottom: 50px;
+	}
+	.fondo-img h1{
+		font-size: 25px;
+	}
+	.jumbotron p{
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.menu-icons .col-md-3 div{
+		width: 70%;
+		margin: auto;
+		margin-top: 70px;
+		margin-bottom: 20px;
+	}
+	.display-none{
+		padding-top: 70px
+	}
+	.ver-git{
+		padding: 5% 0 7%;
+	}
+}
+@media screen and (max-width: 380px) {
+	.sobre-mi{
+		margin-top: -12%;
+	}
+}
 
 
 
