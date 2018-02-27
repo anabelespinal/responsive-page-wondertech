@@ -1,0 +1,246 @@
+/* Tu CSS va aqui */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 
+}
+
+/*header*/
+
+header strong {
+	color: #F05F40;
+}
+
+.menu li a {
+	color: black !important;
+}
+
+.menu li a:hover {
+	color: #F05F40 !important;
+}
+
+/*section*/
+
+/*article*/
+
+.hr-orng {
+	width: 5%;
+	border: 2px solid #F05F40;
+	margin-left: 47.5%;
+	margin-bottom: 2%;
+}
+
+.hr-wht {
+	width: 5%;
+	border: 2px solid #ffffff;
+	margin-left: 47.5%;
+	margin-bottom: 2%;
+}
+
+.fondo-img .row {
+	padding: 5%;
+}
+
+.fondo-img {
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+	padding: 10%;
+}
+
+.fondo-img h1, p{
+	color: #ffffff;
+}
+
+.fondo-img h1 {
+	font-size: 285%;
+}
+
+.fondo-img a {
+	background-color: #F05F40;
+	border: transparent;
+	border-radius: 20px; 
+	margin-top: 5%;
+}
+
+.fondo-img a:hover {
+	background-color: #782F20;
+}
+
+.marg-jumb {
+	margin-top: -2.18%;
+}
+
+/*article*/
+
+.sobre-mi {
+	background-color: #F05F40;
+	color: #ffffff;
+	padding: 7%;
+	margin-top: -8%;
+}
+
+.sobre-mi,.contactame h2 {
+	font-size: 250%;
+}
+
+.h2 {
+	color: #ffffff;
+}
+
+.sobre-mi .container {
+	padding: 0 10%;
+}
+
+/*article*/
+
+.menu-icons {
+	padding: 8% 0;
+}
+
+.col-lg-3 i {
+	font-size: 450%;
+	color: #F05F40;
+}
+
+i+h5 {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+.col-lg-3 div {
+	margin-top: 20%;
+}
+
+h5+span {
+	font-size: 120%;
+}
+
+/*proyectos*/
+
+.jpg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}
+
+.proyectos .col-lg-4 {
+	padding: 0;
+}
+
+.display-none {
+	display: none;
+	background-color: rgba(240, 95, 64, 0.5);
+	padding-top: 10%;
+	height: 100%;
+}
+
+.display-none h2, p {
+	color: #ffffff;
+}
+
+.jpg:hover .display-none {
+	display: block;
+}
+
+.uno-jpg {
+	background-image: url(../img/1.jpg);
+}
+
+.dos-jpg {
+	background-image: url(../img/2.jpg);
+}
+
+.tres-jpg {
+	background-image: url(../img/3.jpg);
+}
+
+.cuatro-jpg {
+	background-image: url(../img/4.jpg);
+}
+
+.cinco-jpg {
+	background-image: url(../img/5.jpg);
+}
+
+.seis-jpg {
+	background-image: url(../img/6.jpg);
+}
+
+/*article*/
+
+.ver-git {
+	background-color: #222222;
+	padding: 5% 0;
+}
+
+.ver-git h2 {
+	color: #ffffff;
+}
+
+.ver-git a {
+ 	margin-top: 3%;
+	background-color: #ffffff;
+	border: transparent;
+	border-radius: 20px;
+	color: black;
+}
+
+.ver-git a:hover {
+	background-color: #222222;
+}
+
+/*article*/
+
+.contactame p,h2 {
+	color: black;
+}
+
+.contactame i {
+	font-size:300%;
+	color: black;
+}
+
+.contactame .row h2, p {
+	margin: 4% 15%;
+}
+
+.contactame h5 a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
